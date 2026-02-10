@@ -1,0 +1,51 @@
+{
+    "Header": {
+        "projects": "Projets",
+        "about": "À propos",
+        "skills": "Compétences",
+        "lab": "Lab",
+        "contact": "Contact",
+        "home": "Accueil"
+    },
+    "Home": {
+        "name": "Charcre-bailse Kingnon",
+        "greeting": "Salut, je suis Charcre-bailse",
+        "role_intro": "Je suis",
+        "role": "Développeur web .",
+        "philosophy": "La programmation est un art, l'art d'insufler la vie, l'art de faire naître l'imagination, l'art de rendre réel l'irréel.",
+        "explore_projects": "Explorer mes projets",
+        "contact_me": "Me contacter"
+    },
+    "About": {
+        "title": "À propos",
+        "subtitle": "Développeur par <highlight>vocation</highlight>. Architecte de systèmes par <highlight>conviction</highlight>.",
+        "journey_title": "Mon Parcours",
+        "journey_text":"Je ne suis pas arrivé au développement par un parcours académique linéaire.\nJ’y suis venu en quête de la liberté créative qu’offrent les mondes du développement : concevoir, structurer et donner vie à des systèmes à partir de rien.\n\nAvec le temps, j’ai appris à penser les produits dans leur globalité, du cœur logique à leur expression visuelle, afin de créer des expériences numériques cohérentes et durables.",
+        "vision_title": "Ma Vision",
+        "vision_text": "Le web ne doit pas se limiter à une interface.\nIl doit être robuste, fluide et porteur d’intention.\n\nJe crois en un web où l’architecture compte autant que l’apparence, et où chaque choix technique sert une vision d’ensemble."
+    },
+    "Projects": {
+        "title": "Mon travail",
+        "subtitle": "Quelques projets récents",
+        "loading": "Chargement...",
+        "no_image": "Pas d'image",
+        "wip": "EN COURS",
+        "type": {
+            "web_app": "Application web",
+            "mobile_app": "Application mobile",
+            "library": "Bibliothèque",
+            "tool": "Outil"
+        },
+        "tech_stack": "Stacks",
+        "view_project": "Démo",
+        "status": {
+            "finished": "Terminé",
+            "wip": "En cours"
+        },
+        "status_word" : "Statut",
+        "type_word" : "Type"
+    },
+    "Footer": {
+        "rights": "Tout droits réservés."
+    }
+}

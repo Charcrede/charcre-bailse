@@ -1,0 +1,51 @@
+{
+    "Header": {
+        "projects": "Projects",
+        "about": "About",
+        "skills": "Skills",
+        "lab": "Lab",
+        "contact": "Contact",
+        "home": "Home"
+    },
+    "Home": {
+        "name": "Charcre-bailse Kingnon",
+        "greeting": "Hay, I am Charcre-bailse",
+        "role_intro": "I am a",
+        "role": "Web Developer .",
+        "philosophy": "Programming is an art, the art of breathing life, the art of birthing imagination, the art of making the unreal real.",
+        "explore_projects": "Explore my projects",
+        "contact_me": "Contact me"
+    },
+    "About": {
+        "title": "About",
+        "subtitle": "Developer by <highlight>calling</highlight>. Systems architect by <highlight>conviction</highlight>.",
+        "journey_title": "My Journey",
+        "journey_text": "My journey\nI did not come to software development through a traditional academic path.\nI was drawn to it by the creative freedom it offers — designing, structuring, and bringing systems to life from the ground up.\n\nOver time, I learned to think in terms of complete products, from core logic to visual expression, building coherent and durable digital experiences.",
+        "vision_title": "My Vision",
+        "vision_text": "The web should be more than an interface.\nIt should be robust, fluid, and intentional.\n\nI believe in a web where architecture matters as much as appearance, and where every technical choice serves a broader vision."
+    },
+    "Projects": {
+        "title": "My work",
+        "subtitle": "Some recent projects",
+        "loading": "Loading...",
+        "no_image": "No image",
+        "wip": "WORK IN PROGRESS",
+        "type": {
+            "web_app": "Web application",
+            "mobile_app": "Mobile application",
+            "library": "Library",
+            "tool": "Tool"
+        },
+        "tech_stack": "Stacks",
+        "view_project": "Demo",
+                "status": {
+            "finished": "Finished",
+            "wip": "Work in progress"
+        },
+        "status_word" : "Status",
+        "type_word" : "Type"
+    },
+    "Footer": {
+        "rights": "All rights reserved."
+    }
+}
