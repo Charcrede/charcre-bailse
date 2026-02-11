@@ -20,9 +20,21 @@
         "title": "À propos",
         "subtitle": "Développeur par <highlight>vocation</highlight>. Architecte de systèmes par <highlight>conviction</highlight>.",
         "journey_title": "Mon Parcours",
-        "journey_text":"Je ne suis pas arrivé au développement par un parcours académique linéaire.\nJ’y suis venu en quête de la liberté créative qu’offrent les mondes du développement : concevoir, structurer et donner vie à des systèmes à partir de rien.\n\nAvec le temps, j’ai appris à penser les produits dans leur globalité, du cœur logique à leur expression visuelle, afin de créer des expériences numériques cohérentes et durables.",
+        "journey_text": "Je ne suis pas arrivé au développement par un parcours académique linéaire.\nJ’y suis venu en quête de la liberté créative qu’offrent les mondes du développement : concevoir, structurer et donner vie à des systèmes à partir de rien.\n\nAvec le temps, j’ai appris à penser les produits dans leur globalité, du cœur logique à leur expression visuelle, afin de créer des expériences numériques cohérentes et durables.",
         "vision_title": "Ma Vision",
         "vision_text": "Le web ne doit pas se limiter à une interface.\nIl doit être robuste, fluide et porteur d’intention.\n\nJe crois en un web où l’architecture compte autant que l’apparence, et où chaque choix technique sert une vision d’ensemble."
+    },
+    "Contact": {
+        "title": "Discutons de votre projet",
+        "subtitle": "Toujours disponible pour des missions freelance si le bon projet se présente. N’hésitez pas à me contacter.",
+        "firstName": "Prénom",
+        "name": "Nom",
+        "email": "Email",
+        "subject": "Sujet",
+        "message": "Votre message",
+        "writeEmail": "Écrire un email",
+        "phone": "Appeler",
+        "send": "Envoyer le message"
     },
     "Projects": {
         "title": "Mon travail",
@@ -42,8 +54,8 @@
             "finished": "Terminé",
             "wip": "En cours"
         },
-        "status_word" : "Statut",
-        "type_word" : "Type"
+        "status_word": "Statut",
+        "type_word": "Type"
     },
     "Footer": {
         "rights": "Tout droits réservés."

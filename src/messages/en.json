@@ -24,6 +24,18 @@
         "vision_title": "My Vision",
         "vision_text": "The web should be more than an interface.\nIt should be robust, fluid, and intentional.\n\nI believe in a web where architecture matters as much as appearance, and where every technical choice serves a broader vision."
     },
+    "Contact": {
+        "title": "Let’s Discuss Your Project",
+        "subtitle": "Always available for freelancing if the right project comes along. Feel free to contact me.",
+        "firstName": "First name",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Your message",
+        "writeEmail": "Write an email",
+        "phone": "Call me",
+        "send": "Send Message"
+    },
     "Projects": {
         "title": "My work",
         "subtitle": "Some recent projects",
@@ -38,12 +50,12 @@
         },
         "tech_stack": "Stacks",
         "view_project": "Demo",
-                "status": {
+        "status": {
             "finished": "Finished",
             "wip": "Work in progress"
         },
-        "status_word" : "Status",
-        "type_word" : "Type"
+        "status_word": "Status",
+        "type_word": "Type"
     },
     "Footer": {
         "rights": "All rights reserved."
