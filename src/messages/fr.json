@@ -57,6 +57,51 @@
         "status_word": "Statut",
         "type_word": "Type"
     },
+    "Skills": {
+    "page_title": "Compétences",
+    "title": "Développement Full-Stack",
+    "intro": "Je conçois et développe des applications web de bout en bout, aussi bien côté frontend que backend. Je construis la logique serveur, les bases de données et les API, puis je les connecte à des interfaces modernes et performantes.",
+    "build_title": "Ce que je construis, pas seulement ce que j’utilise",
+    "backend": {
+      "title": "Backend",
+      "items": [
+        "Conception d’APIs (REST)",
+        "Logique métier et règles applicatives",
+        "Gestion des données (modélisation, lectures, écritures)",
+        "Authentification et sécurité des accès",
+        "Envoi d’emails, notifications et automatisations",
+        "Intégration et configuration de services backend (Firebase, EmailJS, etc.)"
+      ]
+    },
+
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        "Interfaces modernes avec React / Next.js",
+        "Intégration responsive et accessible",
+        "Animations et micro-interactions",
+        "Consommation d’APIs et gestion des états",
+        "Formulaires complexes et validations"
+      ]
+    },
+
+    "stack": {
+      "title": "Stack & outils",
+      "frontend": "Next.js · React · Vue.js · Tailwind CSS · Framer Motion",
+      "backend": "Nest · Laravel · Django · Firebase (Auth, Firestore, Functions, Storage)",
+      "workflow": "Git · Architecture full-stack · Déploiement · Maintenance"
+    },
+
+    "workflow": {
+      "title": "Ma manière de travailler",
+      "text": "Je pense mes projets comme des systèmes complets, pas comme des pages isolées. Chaque partie ( backend, frontend, données ) est conçue pour être claire, robuste et évolutive."
+    },
+        "contact": {
+            "title": "Vous avez un projet qui nécessite plus qu'une simple interface utilisateur ?",
+            "lets_talk": "Discutons-en.",
+            "join_me": "Contactez-moi"
+        }
+  },
     "Footer": {
         "rights": "Tout droits réservés."
     }

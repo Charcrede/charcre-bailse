@@ -18,7 +18,6 @@ export function Header() {
         { name: t("about"), path: "/about" },
         { name: t("projects"), path: "/projects" },
         { name: t("skills"), path: "/skills" },
-        { name: t("lab"), path: "/lab" },
         { name: t("contact"), path: "/contact" },
     ];
 

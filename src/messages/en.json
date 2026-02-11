@@ -57,6 +57,48 @@
         "status_word": "Status",
         "type_word": "Type"
     },
+    "Skills": {
+        "page_title": "Skills",
+        "title": "Full-Stack Development",
+        "intro": "I design and develop web applications end to end, covering both frontend and backend. I build server-side logic, databases, and APIs, then connect them to modern, high-performance interfaces.",
+        "build_title": "What I build, not just what I use",
+        "backend": {
+            "title": "Backend",
+            "items": [
+                "API design (REST)",
+                "Business logic and application rules",
+                "Data management (modeling, reading, writing)",
+                "Authentication and access security",
+                "Email sending, notifications, and automations",
+                "Integration and configuration of backend services (Firebase, EmailJS, etc.)"
+            ]
+        },
+        "frontend": {
+            "title": "Frontend",
+            "items": [
+                "Modern interfaces with React / Next.js",
+                "Responsive and accessible integration",
+                "Animations and micro-interactions",
+                "API consumption and state management",
+                "Complex forms and validations"
+            ]
+        },
+        "stack": {
+            "title": "Stack & Tools",
+            "frontend": "Next.js · React · Vue.js · Tailwind CSS · Framer Motion",
+            "backend": "Nest · Laravel · Django · Firebase (Auth, Firestore, Functions, Storage)",
+            "workflow": "Git · Full-stack architecture · Deployment · Maintenance"
+        },
+        "workflow": {
+            "title": "How I work",
+            "text": "I approach projects as complete systems, not isolated pages. Each part ( backend, frontend, data ) is designed to be clear, robust, and scalable."
+        },
+        "contact": {
+            "title": "Have a project that needs more than just a UI?",
+            "lets_talk": "Let's talk.",
+            "join_me": "Contact me"
+        }
+    },
     "Footer": {
         "rights": "All rights reserved."
     }
