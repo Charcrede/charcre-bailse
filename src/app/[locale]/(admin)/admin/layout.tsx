@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import { authService } from '@/services/authService';
 import { FiLogOut, FiGrid, FiTool } from 'react-icons/fi';
 import { GiHamburgerMenu } from 'react-icons/gi';
@@ -14,10 +14,11 @@ export default function AdminLayout({
   const router = useRouter();
   const [loading, setLoading] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const { locale } = useParams<{ locale: 'fr' | 'en' }>();
 
   useEffect(() => {
     const unsubscribe = authService.onUserChanged((user) => {
-      if (!user) router.push('/login');
+      if (!user) router.push('/' + locale + '/login');
       else setLoading(false);
     });
 
