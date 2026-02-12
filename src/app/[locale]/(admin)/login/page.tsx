@@ -17,7 +17,7 @@ export default function LoginPage() {
         setError('');
         try {
             await authService.login(); // Google sign-in
-            router.push('/admin');
+            router.push('/en/admin');
         } catch (err: any) {
             setError(err.message || 'Erreur lors de la connexion');
         } finally {
