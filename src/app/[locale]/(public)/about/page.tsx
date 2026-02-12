@@ -13,11 +13,12 @@ export default function AboutPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="flex flex-col md:flex-row px-2 md:px-40 gap-8"
+                className="flex flex-col md:flex-row px-2 md:px-20 lg:px-40 gap-8"
             >
-
-                <img src="/about-banner.png" alt="" className="z-10 w-full md:w-1/2" />
-                <div className="max-w-4xl mx-auto">
+                <div className="bg-white/10 border-2 border-white/50 rounded-2xl w-full md:w-1/2 overflow-hidden z-10">
+                    <img src="/about-banner.png" alt="" className="z-10 w-full md:w-full" />
+                </div>
+                <div className="max-w-4xl mx-auto w-full md:w-1/2">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -25,7 +26,7 @@ export default function AboutPage() {
                         className="flex flex-col items-start gap-4"
                     >
                         <p className="bg-[#0787ff33] py-1 px-2 w-fit rounded tracking-[4px] uppercase ">{t('title')}</p>
-                        <h1 className="text-2xl md:text-3xl font-semibold mb-4">
+                        <h1 className="text-2xl lg:text-4xl font-semibold mb-4">
                             <p className="uppercase">
                                 {t.rich('subtitle', {
                                     highlight: (chunks) => <span className="text-[#0788ff] font-bold">{chunks}</span>,
@@ -35,15 +36,15 @@ export default function AboutPage() {
                         </h1>
                     </motion.div>
                     <section className="">
-                        <h2 className="text-xl font-bold mb-2">{t('journey_title')}</h2>
-                        <p className="text-muted-foreground leading-relaxed mb-4  text-sm">
+                        <h2 className="lg:text-3xl text-xl font-bold mb-2">{t('journey_title')}</h2>
+                        <p className="text-muted-foreground leading-relaxed mb-4  lg:text-xl text-sm">
                             {t('journey_text')}
                         </p>
                     </section>
 
                     <section className="">
-                        <h2 className="text-xl font-bold mb-2">{t('vision_title')}</h2>
-                        <p className="text-muted-foreground leading-relaxed text-sm">
+                        <h2 className="lg:text-3xl text-xl font-bold mb-2">{t('vision_title')}</h2>
+                        <p className="text-muted-foreground leading-relaxed lg:text-xl text-sm">
                             {t('vision_text')}
                         </p>
                     </section>

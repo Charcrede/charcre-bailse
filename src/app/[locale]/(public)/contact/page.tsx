@@ -59,8 +59,8 @@ export default function ContactPage() {
             </div>
 
             {/* CONTENT */}
-            <div className="bg-[#07233b] grid grid-cols-1 lg:grid-cols-12 gap-8 p-6 lg:p-12">
-              <div className="lg:col-span-4 order-2 md:order-1 space-y-8 md:mt-24">
+            <div className="bg-[#07233b] grid grid-cols-1 lg:grid-cols-12 gap-8 p-6 lg:p-12 backdrop-blur-lg">
+              <div className="lg:col-span-4 order-2 md:order-1 space-y-8 md:mt-42">
                 <div className="space-y-4">
                   <div>
                     <label className="block text-sm text-gray-100 uppercase">
@@ -158,18 +158,18 @@ export default function ContactPage() {
             </div>
             {/* IMAGE */}
           </div>
-          <div className="hidden lg:block absolute top-[15%] left-[5%]">
+          <div className="hidden lg:block absolute top-[15%] left-[6.5%]">
             <img
               src="/contact-us.png"
               alt="Contact illustration"
-              className="w-2/5"
+              className="w-[30%] rounded-2xl"
             />
           </div>
         </section>
 
       </motion.div >
       <img src="/effect-2.png" alt="" className="absolute top-50 right-0" />
-      <img src="/effect-1.png" alt="" className="absolute -bottom-60 md:-bottom-20 left-5" />
+      <img src="/effect-1.png" alt="" className="absolute -bottom-60 md:-bottom-30 left-5" />
     </div >
   );
 }
