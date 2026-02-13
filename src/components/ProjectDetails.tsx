@@ -42,10 +42,10 @@ export default function ProjectDetails({ app, closeDetails }: CardProps) {
                 </div>
 
 
-                <div className="w-full md:w-1/2 flex flex-col gap-3">
+                <div className="w-full md:w-1/2 flex flex-col gap-3 md:gap-8">
                     <h2 className="text-3xl font-bold ">{app.title}</h2>
-                    <p className="text-gray-600 text-sm">{app.shortDescription[locale]}</p>
-                    <div className='text-gray-600 text-sm md:w-2/3'>
+                    <p className="text-gray-600 text-sm md:text-xl">{app.shortDescription[locale]}</p>
+                    <div className='text-gray-600 text-sm md:text-xl md:w-2/3'>
                         <p className='flex justify-between mb-3'><span>{t('type_word')} : </span> {t(`type.${app.type}`)}</p>
                         <p className='flex justify-between mb-3'><span>{t('tech_stack')} : </span> {app.stack.join(', ')}</p>
                         <p className='flex justify-between mb-3'><span>{t('status_word')} : </span> {t(`status.${app.status}`)}</p>
